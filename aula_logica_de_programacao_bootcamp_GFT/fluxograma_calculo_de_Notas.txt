@@ -1,0 +1,22 @@
+﻿Função Principal
+    Definir Caracteres aluno
+    
+    Saída "Caro aluno, digite seu nome antes de iniciar."
+    Entrada aluno
+    Definir Real nota1, nota2, nota3, nota4, media
+    
+    Entrada nota1
+    Entrada nota2
+    Entrada nota3
+    Entrada nota4
+    Saída "Somando as suas notas... "
+    Saída (nota1 + nota2 + nota3 + nota4)
+    Saída "Sua nota média é: "
+    Atribuir media = (nota1+nota2+nota3+nota4)/4
+    Saída media
+    Se media>=6
+        Saída "PARABÉNS! VOCÊ FOI APROVADO.♥"
+    Falso:
+        Saída "Você foi REPROVADO."
+    Fim
+Fim

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="fabio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-01-20 01:44:21 "/>
+        <attribute name="created" value="ZmFiaW87RkFCSU8tUEM7MjAyMS0wMS0yMDsiMDE6MDA6NTYgIjsyMjMz"/>
+        <attribute name="edited" value="ZmFiaW87RkFCSU8tUEM7MjAyMS0wMS0yMDsiMDE6NDQ6MjEgIjsyOzIzNDI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cliente" type="String" array="False" size=""/>
+            <declare name="cartao" type="Boolean" array="False" size=""/>
+            <declare name="numero" type="String" array="False" size=""/>
+            <input variable="cliente"/>
+            <input variable="cartao"/>
+            <if expression="cartao">
+                <then>
+                    <input variable="numero"/>
+                    <output expression="&quot;Sua compra foi realizada com sucesso. Obrigado!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Compra n&#227;o processada. S&#243; aceitamos pagamento via cart&#227;o.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
